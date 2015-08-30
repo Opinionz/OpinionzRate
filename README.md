@@ -31,7 +31,7 @@ pod "OpinionzRate"
 ```
 
 ###Manual
-To install manually the OpinionzRate class in an app, just drag the OpinionzRate, OpinionzRateView class files (demo files and assets are not needed) into your project. You need to add StoreKit framework to your app.
+To install manually the OpinionzRate class in an app, just drag the OpinionzRate, OpinionzRateView class files (demo files and assets are not needed) into your project. You need to add StoreKit framework to your project.
 
 
 Properties
@@ -46,7 +46,7 @@ Title of the rate popup (default is __"Enjoying _Application name_?"__
 ```objective-c
 @property (nonatomic, strong) NSString *message;
 ```
-Message of the rate popup (default is "__Would you mind taking a moment to rate it? It won’t take more than a minute. Thanks for your support!_"
+Message of the rate popup (default is "__Would you mind taking a moment to rate it? It won’t take more than a minute. Thanks for your support!__"
 
 
 ```objective-c
