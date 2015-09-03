@@ -1,9 +1,9 @@
 //
-//  RateView.h
-//  RatePopup
+//  OpinionzRate.h
+//  OpinionzRate
 //
-//  Created by Anatoli Petrosyants on 8/19/15.
-//  Copyright (c) 2015 Anatoli Petrosyants. All rights reserved.
+//  Created by Opinionz.io on 8/16/15.
+//  Copyright (c) 2015 Opinionz.io. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

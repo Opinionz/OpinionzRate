@@ -1,9 +1,9 @@
 //
-//  OpinionzRate.m
-//  RatePopup
+//  OpinionzRate.h
+//  OpinionzRate
 //
-//  Created by Anatoli Petrosyants on 8/21/15.
-//  Copyright (c) 2015 Anatoli Petrosyants. All rights reserved.
+//  Created by Opinionz.io on 8/16/15.
+//  Copyright (c) 2015 Opinionz.io. All rights reserved.
 //
 
 #import <StoreKit/StoreKit.h>
@@ -23,11 +23,6 @@
 @end
 
 @implementation OpinionzRate
-
-+ (void)load {
-    
-    [self performSelectorOnMainThread:@selector(sharedInstance) withObject:nil waitUntilDone:NO];
-}
 
 // MARK: Public methods
 
