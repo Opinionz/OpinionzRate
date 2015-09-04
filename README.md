@@ -19,7 +19,57 @@ Usage
 --------------
 1. Add `#import <OpinionzRate.h>` in your AppDelegate.m
 2. Call `[[OpinionzRate sharedInstance] setupWithAppStoreId:YOUR_APP_ID]` with the app id provided by Apple. A good place to do this is at the beginning of your app delegate's `application:didFinishLaunchingWithOptions:` method.
-3. Add `#import <OpinionzRate.h>` in your class where you want to ask user for review and call `[[OpinionzRate sharedInstance] promptForRating]` at your desired action (NOTE: call it after your view did appeared)
+3. Add `#import <OpinionzRate.h>` in your class where you want to ask user for review. 
+4. Call `[[OpinionzRate sharedInstance] promptForRating]` at your desired action
+
+NOTE: prompt it after your view did appeared
+
+###Example
+```objective-c
+//
+//  AppDelegate.m
+//  Demo
+//
+//  Created by Opinionz.io on 18/08/15.
+//  Copyright (c) 2015 Opinionz.io. All rights reserved.
+//
+
+#import <OpinionzRate.h>
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    // Override point for customization after application launch.
+    ---
+    [[OpinionzRate sharedInstance] setupWithAppStoreId:995007460];
+    ---
+    return YES;
+}
+```
+
+```objective-c
+//
+//  AppDelegate.m
+//  Demo
+//
+//  Created by Opinionz.io on 18/08/15.
+//  Copyright (c) 2015 Opinionz.io. All rights reserved.
+//
+
+#import "ViewController.h"
+
+#import <OpinionzRate.h>
+
+- (IBAction)rateButtonHandler:(id)sender {
+    //Optional
+    [[OpinionzRate sharedInstance].title = @"Do you love our app?";
+    [[OpinionzRate sharedInstance].message = @"Would you mind taking a moment to rate it? It won’t take more than a minute. Thanks for your support!";
+    [[OpinionzRate sharedInstance].cancelTitle = @"No, thanks";
+    [[OpinionzRate sharedInstance].rateTitle = @"Rate now";
+    [[OpinionzRate sharedInstance].rateLaterTitle = @"Remind me later";
+    //
+    
+    [[OpinionzRate sharedInstance] promptForRating];
+}
+```
 
 Configuration
 -------------
