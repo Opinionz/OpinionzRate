@@ -1,38 +1,29 @@
 Introduction
 --------------
 
-OpinionzRate is a class designed to simplify the way you remind your users to review your app on the App Store. It has unique designs for prompting user and we are going to add new design evenatually. Read on below for how to get started.
-
-Supported OS & SDK Versions
------------------------------
-
-* Supported build target - iOS 7.0 (Xcode 6.2)
-
-
-ARC Compatibility
-------------------
-
-OpinionzRate requires ARC. 
-
-Сocoapods version
-------------------
-
-```ruby
-pod 'OpinionzRate', '~> 1.0'
-```
+OpinionzRate is a class designed to simplify the way you remind your users to review your app on the App Store. It has unique designs for prompting user and we are going to add new design eventually. Read on below for how to get started.
 
 Installation
 --------------
 ###Cocoapods
 To install via CocoaPods add this line to your Podfile
 ```ruby
-use_frameworks!
-pod "OpinionzRate"
+pod 'OpinionzRate', '~> 1.0'
 ```
 
 ###Manual
-To install manually the OpinionzRate class in an app, just drag the OpinionzRate, OpinionzRateView class files (demo files and assets are not needed) into your project. You need to add StoreKit framework to your project.
+1. Add the OpinionzRate code into your project.
+2. Add the `StoreKit` frameworks to your project.
 
+Usage
+--------------
+1. Add `#import <OpinionzRate.h>` in your AppDelegate.m
+2. Call `[[OpinionzRate sharedInstance] setupWithAppStoreId:YOUR_APP_ID]` with the app id provided by Apple. A good place to do this is at the beginning of your app delegate's `application:didFinishLaunchingWithOptions:` method.
+3. Add `#import <OpinionzRate.h>` in your class where you want to ask user for review and call `[[OpinionzRate sharedInstance] promptForRating]` at your desired action (NOTE: call it after your view did appeared)
+
+Configuration
+-------------
+You can set `title`, `message`, `cancelTitle`, `rateTitle` and `rateLaterTitle` messages. If some of them are not set, default values will be used.
 
 Properties
 --------------
@@ -87,6 +78,16 @@ Register app with store id and start using Opinionz SDK.
 ```
 Show rate popup at your desired time
 
+Supported OS & SDK Versions
+-----------------------------
+
+* Supported build target - iOS 7.0 (Xcode 6.2)
+
+
+ARC Compatibility
+------------------
+
+OpinionzRate requires ARC. 
 
 Protocols
 ---------------
