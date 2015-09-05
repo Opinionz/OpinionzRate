@@ -8,7 +8,7 @@ Installation
 ###Cocoapods
 To install via CocoaPods add this line to your Podfile
 ```ruby
-pod 'OpinionzRate', '~> 1.0'
+pod 'OpinionzRate', '~> 0.1.0'
 ```
 
 ###Manual
