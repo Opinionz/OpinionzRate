@@ -1,4 +1,5 @@
 source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/Opinionz/OPZPodSpecs.git'
 use_frameworks!
 
 target 'OpinionzRate_Example', :exclusive => true do

@@ -1,40 +1,27 @@
-#
-# Be sure to run `pod lib lint OpinionzRate.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
-  s.name             = "OpinionzRate"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of OpinionzRate."
+    s.name             = "OpinionzRate"
+    s.version          = "0.1.0"
+    s.summary          = "OpinionzRate: Remind your users to review"
+    s.description      = <<-DESC
+    OpinionzRate is a class designed to simplify the way you remind your users to review your app on the App Store. It has unique designs for prompting user and we are going to add new design eventually.
+    DESC
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC
-                       DESC
-
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/OpinionzRate"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
-  s.license          = 'MIT'
-  s.author           = { "Armen" => "armen.mkrtchian@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/OpinionzRate.git", :tag => s.version.to_s }
+    s.homepage         = "https://opinionz.github.io/OpinionzRate"
+    # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+    s.license          = 'MIT'
+    s.author           = { "Armen" => "armen.mkrtchian@gmail.com", "Tolik" => "tolik.petrosyants@gmail.com" }
+    s.source           = { :git => "https://github.com/Opinionz/OpinionzRate.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
+  s.source_files = 'OpinionzRate/Classes/**/*'
   s.resource_bundles = {
-    'OpinionzRate' => ['Pod/Assets/*.png']
+    'OpinionzRate' => ['OpinionzRate/Assets/Images/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  # s.public_header_files = 'OpinionzRate/Classes/**/*.h'
+  s.frameworks = 'StoreKit'
+  s.dependency 'OpinionzAlertView', '~> 0.1.0'
 end

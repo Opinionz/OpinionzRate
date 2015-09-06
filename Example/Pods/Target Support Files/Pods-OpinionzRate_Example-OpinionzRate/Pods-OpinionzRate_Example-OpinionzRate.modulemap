@@ -1,0 +1,6 @@
+framework module OpinionzRate {
+  umbrella header "Pods-OpinionzRate_Example-OpinionzRate-umbrella.h"
+
+  export *
+  module * { export * }
+}
