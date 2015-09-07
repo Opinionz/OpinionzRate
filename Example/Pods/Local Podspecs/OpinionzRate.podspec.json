@@ -19,9 +19,7 @@
   "requires_arc": true,
   "source_files": "OpinionzRate/Classes/**/*",
   "resource_bundles": {
-    "OpinionzRate": [
-      "OpinionzRate/Assets/Images/*.png"
-    ]
+    "OpinionzRate": "OpinionzRate/Assets/Images/*.png"
   },
   "frameworks": "StoreKit",
   "dependencies": {

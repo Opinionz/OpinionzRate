@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C06F9DD6346059BDC8DEFE0F"
+               BlueprintIdentifier = "B1681C2A76865E68F5E12623"
                BuildableName = "OpinionzRate.framework"
                BlueprintName = "Pods-OpinionzRate_Example-OpinionzRate"
                ReferencedContainer = "container:Pods.xcodeproj">

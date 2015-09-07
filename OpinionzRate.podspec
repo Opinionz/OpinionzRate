@@ -16,10 +16,11 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'OpinionzRate/Classes/**/*'
-  s.resource_bundles = {
-    'OpinionzRate' => ['OpinionzRate/Assets/Images/*.png']
-  }
+  s.source_files = 'OpinionzRate/Classes/*'
+#  s.resource_bundles = {
+#    'OpinionzRate' => ['OpinionzRate/Assets/Images/*.png']
+#  }
+  s.resource_bundle = { 'OpinionzRate' => 'OpinionzRate/Assets/Images/*.png' }
 
   # s.public_header_files = 'OpinionzRate/Classes/**/*.h'
   s.frameworks = 'StoreKit'
