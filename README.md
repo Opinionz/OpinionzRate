@@ -18,7 +18,7 @@ OpinionzRate is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'OpinionzRate', '~> 0.1.0'
+pod 'OpinionzRate', '~> 0.2.0'
 ```
 
 ###Manual
@@ -156,18 +156,12 @@ ARC Compatibility
 
 OpinionzRate requires ARC. 
 
-Protocols
----------------
-
-Thread Safety
---------------
-
 Release Notes
 ----------------
 
-Version 1.0
+Version 0.2.0
 
-- Release version.
+- Initial version.
 
 ## Author
 

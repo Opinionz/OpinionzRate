@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = "OpinionzRate"
-    s.version          = "0.1.0"
+    s.version          = "0.2.0"
     s.summary          = "OpinionzRate: Remind your users to review"
     s.description      = <<-DESC
     OpinionzRate is a class designed to simplify the way you remind your users to review your app on the App Store. It has unique designs for prompting user and we are going to add new design eventually.
@@ -24,5 +24,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'OpinionzRate/Classes/**/*.h'
   s.frameworks = 'StoreKit'
-  s.dependency 'OpinionzAlertView', '~> 0.1.0'
+  s.dependency 'OpinionzAlertView', '~> 0.2.0'
 end
