@@ -26,9 +26,11 @@ pod 'OpinionzRate', '~> 0.2.0'
 2. Add the `StoreKit` frameworks to your project.
 
 
-## Usage
+## Communication
 
-.
+- If you **found a bug**, _and can provide steps to reliably reproduce it_, open an issue.
+- If you **have a feature request**, open an issue.
+- If you **want to contribute**, submit a pull request.
 
 Usage
 --------------
