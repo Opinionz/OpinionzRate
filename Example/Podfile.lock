@@ -1,7 +1,5 @@
 PODS:
-  - OpinionzAlertView (0.1.0)
-  - OpinionzRate (0.1.0):
-    - OpinionzAlertView (~> 0.1.0)
+  - OpinionzRate (0.3.0)
 
 DEPENDENCIES:
   - OpinionzRate (from `../`)
@@ -11,7 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  OpinionzAlertView: c6c565b6d88a9f072a344be2865c905cf2b9529d
-  OpinionzRate: ae1c15c54bdb194c5956e66375241d3e0d06065f
+  OpinionzRate: 53af0235fa18fefc3a77ec031435788a18eecaf6
 
-COCOAPODS: 0.37.2
+COCOAPODS: 0.38.2

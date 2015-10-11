@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		126E8C6247DE33B505D44498 /* Pods_OpinionzRate_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C25020B78D232F33BF212840 /* Pods_OpinionzRate_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		26A147988E95BA325A8A2061 /* libPods-OpinionzRate_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C3229CBB3FD02CC50C45AE5 /* libPods-OpinionzRate_Tests.a */; };
+		36F1865F7D3CA6ED7B9AE9E6 /* libPods-OpinionzRate_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE2AEB6494200CC77D5170D /* libPods-OpinionzRate_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,7 +23,6 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		E2302FE1DC6681EBB56773A7 /* Pods_OpinionzRate_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E614AD4BDD4A82BC4FDA88D7 /* Pods_OpinionzRate_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C3229CBB3FD02CC50C45AE5 /* libPods-OpinionzRate_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpinionzRate_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* OpinionzRate_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpinionzRate_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,10 +61,9 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8C0EB378FDBB151662F31F39 /* Pods-OpinionzRate_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpinionzRate_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpinionzRate_Tests/Pods-OpinionzRate_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9C6FC5196643BBD13435B098 /* Pods-OpinionzRate_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpinionzRate_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpinionzRate_Tests/Pods-OpinionzRate_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AFE2AEB6494200CC77D5170D /* libPods-OpinionzRate_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpinionzRate_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1CA7DB010A01B6F6A20C343 /* Pods-OpinionzRate_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpinionzRate_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpinionzRate_Example/Pods-OpinionzRate_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C25020B78D232F33BF212840 /* Pods_OpinionzRate_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpinionzRate_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE2C40EE48F20D6D470DB2E6 /* Pods-OpinionzRate_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpinionzRate_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpinionzRate_Example/Pods-OpinionzRate_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E614AD4BDD4A82BC4FDA88D7 /* Pods_OpinionzRate_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpinionzRate_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBBBADCF60F4BFA28DFF714F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,7 +75,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				126E8C6247DE33B505D44498 /* Pods_OpinionzRate_Example.framework in Frameworks */,
+				36F1865F7D3CA6ED7B9AE9E6 /* libPods-OpinionzRate_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				E2302FE1DC6681EBB56773A7 /* Pods_OpinionzRate_Tests.framework in Frameworks */,
+				26A147988E95BA325A8A2061 /* libPods-OpinionzRate_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,8 +121,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				C25020B78D232F33BF212840 /* Pods_OpinionzRate_Example.framework */,
-				E614AD4BDD4A82BC4FDA88D7 /* Pods_OpinionzRate_Tests.framework */,
+				AFE2AEB6494200CC77D5170D /* libPods-OpinionzRate_Example.a */,
+				2C3229CBB3FD02CC50C45AE5 /* libPods-OpinionzRate_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -204,7 +204,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				86EC626C486BE22CBBDCF7EA /* Embed Pods Frameworks */,
 				B25050CF368E45844D8B6332 /* Copy Pods Resources */,
 			);
 			buildRules = (
@@ -224,7 +223,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				138A788AD4F0807C88845C58 /* Embed Pods Frameworks */,
 				2074515CE5717FEFBB36B1D2 /* Copy Pods Resources */,
 			);
 			buildRules = (
@@ -293,21 +291,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		138A788AD4F0807C88845C58 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpinionzRate_Tests/Pods-OpinionzRate_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2074515CE5717FEFBB36B1D2 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -321,21 +304,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpinionzRate_Tests/Pods-OpinionzRate_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		86EC626C486BE22CBBDCF7EA /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpinionzRate_Example/Pods-OpinionzRate_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9A04028258513752FEB8837E /* Check Pods Manifest.lock */ = {

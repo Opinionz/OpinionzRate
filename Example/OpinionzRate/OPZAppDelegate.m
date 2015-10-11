@@ -9,12 +9,16 @@
 #import "OPZAppDelegate.h"
 
 #import <OpinionzRate/OpinionzRate.h>
+#import <OpinionzRate/OpinionzCustomRateView.h>
 
 @implementation OPZAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     [[OpinionzRate sharedInstance] setupWithAppStoreId:995007460];
+    
+    [OpinionzRate sharedInstance].debugMode = YES;
+    
     
     // Override point for customization after application launch.
     return YES;

@@ -18,18 +18,40 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yeB-fV-Zpq">
-                                <rect key="frame" x="108" y="269" width="104" height="30"/>
-                                <state key="normal" title="Prompt for rate">
+                                <rect key="frame" x="84" y="219" width="152" height="30"/>
+                                <state key="normal" title="Prompt to rate Default">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonHandlerRate:" destination="whP-gf-Uak" eventType="touchUpInside" id="Bsk-H4-CSt"/>
+                                    <action selector="buttonHandlerRate1" destination="whP-gf-Uak" eventType="touchUpInside" id="ObC-ij-uPS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ru-kO-aPX">
+                                <rect key="frame" x="86" y="269" width="149" height="30"/>
+                                <state key="normal" title="Prompt to rate Popup">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonHandlerRate2" destination="whP-gf-Uak" eventType="touchUpInside" id="MAm-3O-NIg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zSA-ur-7bv" userLabel="Prompt for rate design 3">
+                                <rect key="frame" x="73" y="319" width="174" height="30"/>
+                                <state key="normal" title="Prompt to rate Fullscreen">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonHandlerRate3" destination="whP-gf-Uak" eventType="touchUpInside" id="nQb-fn-t9g"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerY" secondItem="yeB-fV-Zpq" secondAttribute="centerY" id="FWM-CH-GQH"/>
+                            <constraint firstAttribute="centerX" secondItem="zSA-ur-7bv" secondAttribute="centerX" id="95l-xB-2fN"/>
+                            <constraint firstAttribute="centerX" secondItem="6Ru-kO-aPX" secondAttribute="centerX" id="9Go-tn-vCM"/>
+                            <constraint firstAttribute="centerY" secondItem="yeB-fV-Zpq" secondAttribute="centerY" constant="50" id="FWM-CH-GQH"/>
+                            <constraint firstAttribute="centerY" secondItem="zSA-ur-7bv" secondAttribute="centerY" constant="-50" id="MKQ-il-VGe"/>
+                            <constraint firstAttribute="centerY" secondItem="6Ru-kO-aPX" secondAttribute="centerY" id="jjO-I1-ok2"/>
                             <constraint firstAttribute="centerX" secondItem="yeB-fV-Zpq" secondAttribute="centerX" id="u2A-W8-WWc"/>
                         </constraints>
                     </view>

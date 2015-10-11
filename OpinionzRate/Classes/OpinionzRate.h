@@ -8,11 +8,37 @@
 
 #import <Foundation/Foundation.h>
 
+typedef NS_ENUM(NSInteger, RateViewType) {
+    RateViewTypeDefault,
+    RateViewTypePopup,
+    RateViewTypeFullscreen
+};
+
+@class OpinionzCustomRateView;
+
+@protocol OpinionzRateDelegate <NSObject>
+@required
+- (void)rateStar:(NSNumber *)star;
+- (void)rateApp;
+- (void)rejectToRate;
+
+@end
+
 /*!
  * @brief OpinionzRate: single manager
  *
  */
 @interface OpinionzRate : NSObject
+
+@property (nonatomic) RateViewType type;
+@property (nonatomic) BOOL debugMode;
+
+/*!
+ * @property
+ * @discussion Header image.
+ * @since 1.0+
+ */
+@property (nonatomic, strong) UIImage *headerImage;
 
 /*!
  * @property
@@ -20,6 +46,13 @@
  * @since 1.0+
  */
 @property (nonatomic, strong) NSString *title;
+
+/*!
+ * @property
+ * @discussion Short description of Rate.
+ * @since 1.0+
+ */
+@property (nonatomic, strong) NSString *shortDescription;
 
 /*!
  * @property
@@ -48,6 +81,13 @@
  * @since 1.0+
  */
 @property (nonatomic, strong) NSString *rateLaterTitle;
+
+/*!
+ * @property
+ * @discussion Feedback email.
+ * @since 1.0+
+ */
+@property (nonatomic, strong) NSString *feedbackEmail;
 
 /*!
  * @discussion sharedInstance Required method for getting single manager. The recommended way to set library into your application is to place a call
