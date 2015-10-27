@@ -1,4 +1,18 @@
 Pod::Spec.new do |s|
+<<<<<<< HEAD
+  s.name             = "OpinionzRate"
+  s.version          = "0.1.0"
+  s.summary          = "OpinionzRate: Remind your users to review"
+  s.description      = <<-DESC
+OpinionzRate is a class designed to simplify the way you remind your users to review your app on the App Store. It has unique designs for prompting user and we are going to add new design eventually.
+                       DESC
+
+  s.homepage         = "https://opinionz.github.io/OpinionzRate"
+  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.license          = 'MIT'
+  s.author           = { "Armen" => "armen.mkrtchian@gmail.com", "Tolik" => "tolik.petrosyants@gmail.com" }
+  s.source           = { :git => "https://github.com/Opinionz/OpinionzRate.git", :tag => s.version.to_s }
+=======
     s.name             = "OpinionzRate"
     s.version          = "0.3.0"
     s.summary          = "OpinionzRate: Remind your users to review"
@@ -12,10 +26,21 @@ Pod::Spec.new do |s|
     s.author           = { "Opinionz.io" => "support@opinionz.io"}
     s.source           = { :git => "https://github.com/Opinionz/OpinionzRate.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+>>>>>>> 1246eaad0654f4178996de357e4f73b9fe2bfc17
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
+<<<<<<< HEAD
+  s.source_files = '*.{h,m}'
+  s.resource_bundles = {
+    'OpinionzRate' => ['OpinionzAlertView.bundle']
+  }
+
+  # s.public_header_files = 'Pod/Classes/**/*.h'
+    s.frameworks = 'StoreKit'
+  #  s.dependency 'OpinionzRate/OpinionzAlertView', '~> 0.1.0'
+=======
   s.source_files = 'OpinionzRate/Classes/*'
 #  s.resource_bundles = {
 #    'OpinionzRate' => ['OpinionzRate/Assets/Images/*.png']
@@ -25,4 +50,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'OpinionzRate/Classes/**/*.h'
   s.frameworks = 'StoreKit', 'MessageUI'
+>>>>>>> 1246eaad0654f4178996de357e4f73b9fe2bfc17
 end

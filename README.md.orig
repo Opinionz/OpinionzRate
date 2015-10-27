@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 # OpinionzRate
 
 [![CI Status](http://img.shields.io/travis/Opinionz/OpinionzRate.svg?style=flat)](https://travis-ci.org/Opinionz/OpinionzRate)
@@ -5,6 +7,7 @@
 [![License](https://img.shields.io/cocoapods/l/OpinionzRate.svg?style=flat)](http://cocoapods.org/pods/OpinionzRate)
 [![Platform](https://img.shields.io/cocoapods/p/OpinionzRate.svg?style=flat)](http://cocoapods.org/pods/OpinionzRate)
 
+>>>>>>> 1246eaad0654f4178996de357e4f73b9fe2bfc17
 Introduction
 --------------
 
@@ -13,18 +16,26 @@ OpinionzRate is a class designed to simplify the way you remind your users to re
 Installation
 --------------
 ###Cocoapods
+<<<<<<< HEAD
+To install via CocoaPods add this line to your Podfile
+```ruby
+pod 'OpinionzRate', '~> 0.1.0'
+=======
 
 OpinionzRate is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'OpinionzRate', '~> 0.3.0'
+>>>>>>> 1246eaad0654f4178996de357e4f73b9fe2bfc17
 ```
 
 ###Manual
 1. Add the OpinionzRate code into your project.
 2. Add the `StoreKit` frameworks to your project.
 
+<<<<<<< HEAD
+=======
 
 ## Communication
 
@@ -32,6 +43,7 @@ pod 'OpinionzRate', '~> 0.3.0'
 - If you **have a feature request**, open an issue.
 - If you **want to contribute**, submit a pull request.
 
+>>>>>>> 1246eaad0654f4178996de357e4f73b9fe2bfc17
 Usage
 --------------
 1. Add `#import <OpinionzRate.h>` in your AppDelegate.m
@@ -42,9 +54,12 @@ Usage
 NOTE: prompt it after your view did appeared
 
 ###Example
+<<<<<<< HEAD
+=======
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+>>>>>>> 1246eaad0654f4178996de357e4f73b9fe2bfc17
 ```objective-c
 //
 //  AppDelegate.m
@@ -58,16 +73,26 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+<<<<<<< HEAD
+    ---
+    [[OpinionzRate sharedInstance] setupWithAppStoreId:995007460];
+    ---
+=======
 
     [[OpinionzRate sharedInstance] setupWithAppStoreId:995007460];
 
+>>>>>>> 1246eaad0654f4178996de357e4f73b9fe2bfc17
     return YES;
 }
 ```
 
 ```objective-c
 //
+<<<<<<< HEAD
+//  AppDelegate.m
+=======
 //  ViewController.m
+>>>>>>> 1246eaad0654f4178996de357e4f73b9fe2bfc17
 //  Demo
 //
 //  Created by Opinionz.io on 18/08/15.
@@ -78,6 +103,17 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 #import <OpinionzRate.h>
 
+<<<<<<< HEAD
+- (IBAction)rateButtonHandler:(id)sender {
+    //Optional
+    [[OpinionzRate sharedInstance].title = @"Do you love our app?";
+    [[OpinionzRate sharedInstance].message = @"Would you mind taking a moment to rate it? It won’t take more than a minute. Thanks for your support!";
+    [[OpinionzRate sharedInstance].cancelTitle = @"No, thanks";
+    [[OpinionzRate sharedInstance].rateTitle = @"Rate now";
+    [[OpinionzRate sharedInstance].rateLaterTitle = @"Remind me later";
+    //
+    
+=======
 - (IBAction)buttonHandlerRate:(id)sender {
     //Optional customization
 //    [OpinionzRate sharedInstance].title = @"Do you love our app?";
@@ -86,6 +122,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 //    [OpinionzRate sharedInstance].rateTitle = @"Rate now";
 //    [OpinionzRate sharedInstance].rateLaterTitle = @"Remind me later";
 
+>>>>>>> 1246eaad0654f4178996de357e4f73b9fe2bfc17
     [[OpinionzRate sharedInstance] promptForRating];
 }
 ```
@@ -158,6 +195,20 @@ ARC Compatibility
 
 OpinionzRate requires ARC. 
 
+<<<<<<< HEAD
+Protocols
+---------------
+
+Thread Safety
+--------------
+
+Release Notes
+----------------
+
+Version 1.0
+
+- Release version.
+=======
 Release Notes
 ----------------
 
@@ -176,4 +227,5 @@ Opinionz.io, support@opinionz.io
 ## License
 
 OpinionzRate is available under the MIT license. See the LICENSE file for more info.
+>>>>>>> 1246eaad0654f4178996de357e4f73b9fe2bfc17
 

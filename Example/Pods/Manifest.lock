@@ -1,0 +1,14 @@
+PODS:
+  - OpinionzRate (0.3.0)
+
+DEPENDENCIES:
+  - OpinionzRate (from `../`)
+
+EXTERNAL SOURCES:
+  OpinionzRate:
+    :path: ../
+
+SPEC CHECKSUMS:
+  OpinionzRate: 53af0235fa18fefc3a77ec031435788a18eecaf6
+
+COCOAPODS: 0.38.2

@@ -1,0 +1,1 @@
+../../../../../OpinionzRate/Classes/OpinionzRate.h

@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		004ED54B67DD00A6681506AEEEA0FD21 /* Pods-OpinionzRate_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0319EFAFB7C2EDFD8237C003E63E54C /* Pods-OpinionzRate_Tests-dummy.m */; };
+		01C234C2D5F0341D24D21FDF5846355C /* star_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67A582A31C64CA59CD4214F8394F0A10 /* star_blue@2x.png */; };
+		0285D4D0A0196F7FFD2D706C5858706C /* OPZCustomRateViewDefault.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31C3B11B0256286217A96F6A94F1672C /* OPZCustomRateViewDefault.xib */; };
+		047066C29A72D73819F8B8CFBEEE1227 /* OpinionzRate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4261239D2E01F69AE1F38ADAAC5543 /* OpinionzRate.m */; };
+		174DEEF7F6C1EFFDD43F94094AE670A8 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E6E3313043E18B3045B97EFB6D867ED /* StoreKit.framework */; };
+		1B99691B467A0AEE6FCDA1064066ABA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC33C13958F5E351E050F106E6DE40C3 /* Foundation.framework */; };
+		21E7E3B6D07FB1C5672ADD272F7A7DD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC33C13958F5E351E050F106E6DE40C3 /* Foundation.framework */; };
+		2308FE68A00F116879FEB48CE08EBF1C /* OpinionzCustomRateView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4401CD20DEDA5280F64F634AB2379A5 /* OpinionzCustomRateView.m */; };
+		427ACC274498AA41FCCDF8821C44FFF1 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB8A266C569C23CCE7C8D37EE451D70 /* MessageUI.framework */; };
+		64DA258EE149E3D05241AE2D08DAE658 /* star_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F029F340FF503D5066973EDE79276D7A /* star_gray@2x.png */; };
+		67EED02B545DEE82A312411E07F93D5F /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC1336D2A643129DFBF092C8B5DB0290 /* close@2x.png */; };
+		919D28BF8BF48953704F886D7CD69293 /* OPZCustomRateViewPopup.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E4A4AC6427D489AA0EA0A3C866CB932 /* OPZCustomRateViewPopup.xib */; };
+		953FE822C0D6AE314F214CC1E97C0C35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC33C13958F5E351E050F106E6DE40C3 /* Foundation.framework */; };
+		A2015A94BB8DBFDBAB2493D7A8B84C24 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A68DFEA41149F99EB404F78FA2ED9F88 /* Media.xcassets */; };
+		C55E9FCEF8BA5C66034206F255BE391F /* OpinionzCustomRateView.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A2C7A4E22056FEFBD924EE6E18009F /* OpinionzCustomRateView.h */; };
+		CAFD361DD1838F27C29AB5C832A2CFF1 /* OPZCustomRateViewFullscreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89E6D4D195E66687A8536EFE4C60E38E /* OPZCustomRateViewFullscreen.xib */; };
+		D73E2EB619C79555A914752ED4B7B01F /* OpinionzRate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F9489FC6AAFAD0C729A2DADE88C180 /* OpinionzRate-dummy.m */; };
+		E886DE9B7144FF5E8556CB71E089F5D6 /* OpinionzRate.h in Headers */ = {isa = PBXBuildFile; fileRef = B0EBE750F6F6E5E0724B59B62463F88B /* OpinionzRate.h */; };
+		F275C749902A8B957A220FAAD19248A4 /* Pods-OpinionzRate_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 175E0677DD6803D12D612916F254D298 /* Pods-OpinionzRate_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13D0B148114DB9B4431DAB93E66ECBD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3410AAB0C2B142285326B6BA1327C1C;
+			remoteInfo = OpinionzRate;
+		};
+		30EABE86B7A0DC04D01B4423B90BCD0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3410AAB0C2B142285326B6BA1327C1C;
+			remoteInfo = OpinionzRate;
+		};
+		FE075FB5D7EF9ABCA8B0BB5F49BBF9AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0152DFC861977D20ECB876F3C05BD6E5;
+			remoteInfo = "OpinionzRate-OpinionzRate";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0234F09DE7E189930877DAD56FE86A20 /* Pods-OpinionzRate_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpinionzRate_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0B7C6C7C61717989BFD1223C57F00D5C /* Pods-OpinionzRate_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpinionzRate_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0F405C6518689DEE7353C070883705E6 /* libPods-OpinionzRate_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpinionzRate_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		175E0677DD6803D12D612916F254D298 /* Pods-OpinionzRate_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpinionzRate_Example-dummy.m"; sourceTree = "<group>"; };
+		242D9B320A81156D0A7818B514E5DBC1 /* libOpinionzRate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOpinionzRate.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2511684097CC7673FA3A0D291E049BE8 /* Pods-OpinionzRate_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpinionzRate_Example.release.xcconfig"; sourceTree = "<group>"; };
+		27F9489FC6AAFAD0C729A2DADE88C180 /* OpinionzRate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OpinionzRate-dummy.m"; sourceTree = "<group>"; };
+		2C4261239D2E01F69AE1F38ADAAC5543 /* OpinionzRate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OpinionzRate.m; sourceTree = "<group>"; };
+		31C3B11B0256286217A96F6A94F1672C /* OPZCustomRateViewDefault.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = OPZCustomRateViewDefault.xib; sourceTree = "<group>"; };
+		463C85E3EADABEEFCB5BF70F4A28EC94 /* libPods-OpinionzRate_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpinionzRate_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F7A8299A8663A124CBA674982547BC /* OpinionzRate.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpinionzRate.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DFF65888557667F5F645574B7033293 /* Pods-OpinionzRate_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpinionzRate_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		67A582A31C64CA59CD4214F8394F0A10 /* star_blue@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "star_blue@2x.png"; sourceTree = "<group>"; };
+		72F02097E9885EEFAB6200F6401CD1AB /* Pods-OpinionzRate_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpinionzRate_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7FBCD1B241F93947720A0866AAA0A6A4 /* OpinionzRate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpinionzRate-prefix.pch"; sourceTree = "<group>"; };
+		89E6D4D195E66687A8536EFE4C60E38E /* OPZCustomRateViewFullscreen.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = OPZCustomRateViewFullscreen.xib; sourceTree = "<group>"; };
+		8CB8A266C569C23CCE7C8D37EE451D70 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
+		8E4A4AC6427D489AA0EA0A3C866CB932 /* OPZCustomRateViewPopup.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = OPZCustomRateViewPopup.xib; sourceTree = "<group>"; };
+		970F26DFD29BBC8A907E7B748D794844 /* Pods-OpinionzRate_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OpinionzRate_Example-resources.sh"; sourceTree = "<group>"; };
+		99A2C7A4E22056FEFBD924EE6E18009F /* OpinionzCustomRateView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OpinionzCustomRateView.h; sourceTree = "<group>"; };
+		9E6E3313043E18B3045B97EFB6D867ED /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		A10039F822006060677B1CCC83894BFC /* Pods-OpinionzRate_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OpinionzRate_Tests-resources.sh"; sourceTree = "<group>"; };
+		A68DFEA41149F99EB404F78FA2ED9F88 /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		B0EBE750F6F6E5E0724B59B62463F88B /* OpinionzRate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OpinionzRate.h; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C4401CD20DEDA5280F64F634AB2379A5 /* OpinionzCustomRateView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OpinionzCustomRateView.m; sourceTree = "<group>"; };
+		C85B41658786DADF17FDAF87B9ED51DC /* OpinionzRate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OpinionzRate.xcconfig; sourceTree = "<group>"; };
+		CC33C13958F5E351E050F106E6DE40C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D15385BAC4128E255474D2AA85FE0875 /* Pods-OpinionzRate_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpinionzRate_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DD701DB2F7765CA4BD6780F5BE927A25 /* Pods-OpinionzRate_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpinionzRate_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F029F340FF503D5066973EDE79276D7A /* star_gray@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "star_gray@2x.png"; sourceTree = "<group>"; };
+		F0319EFAFB7C2EDFD8237C003E63E54C /* Pods-OpinionzRate_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpinionzRate_Tests-dummy.m"; sourceTree = "<group>"; };
+		F2FC515D496B23CADDA3FFDD595B3983 /* OpinionzRate-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OpinionzRate-Private.xcconfig"; sourceTree = "<group>"; };
+		FA2795C9E6964FBF4AD400335AAA0A66 /* Pods-OpinionzRate_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpinionzRate_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FC1336D2A643129DFBF092C8B5DB0290 /* close@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A21E5572E0D375E4ADBE3F9B3760441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953FE822C0D6AE314F214CC1E97C0C35 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D13F4DE0E8EE2376DD79301A11FEA2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EA4CC4BB18F41E5ABADE1509D2C7AAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21E7E3B6D07FB1C5672ADD272F7A7DD2 /* Foundation.framework in Frameworks */,
+				427ACC274498AA41FCCDF8821C44FFF1 /* MessageUI.framework in Frameworks */,
+				174DEEF7F6C1EFFDD43F94094AE670A8 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4AC488A5FAFDD874A2D0597FC551492 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B99691B467A0AEE6FCDA1064066ABA7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A34D78C6E77F2A87859C24DBF8DBF474 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13AFEEB0D13C5607C92B8028286A7469 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				254A4F1BFFD7288D0AE6C0C003C660E6 /* Pods-OpinionzRate_Example */,
+				D475AC58D8760F68D516483AD7F0CE2C /* Pods-OpinionzRate_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		254A4F1BFFD7288D0AE6C0C003C660E6 /* Pods-OpinionzRate_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DD701DB2F7765CA4BD6780F5BE927A25 /* Pods-OpinionzRate_Example-acknowledgements.markdown */,
+				0B7C6C7C61717989BFD1223C57F00D5C /* Pods-OpinionzRate_Example-acknowledgements.plist */,
+				175E0677DD6803D12D612916F254D298 /* Pods-OpinionzRate_Example-dummy.m */,
+				970F26DFD29BBC8A907E7B748D794844 /* Pods-OpinionzRate_Example-resources.sh */,
+				5DFF65888557667F5F645574B7033293 /* Pods-OpinionzRate_Example.debug.xcconfig */,
+				2511684097CC7673FA3A0D291E049BE8 /* Pods-OpinionzRate_Example.release.xcconfig */,
+			);
+			name = "Pods-OpinionzRate_Example";
+			path = "Target Support Files/Pods-OpinionzRate_Example";
+			sourceTree = "<group>";
+		};
+		46C5CFA67B3891784BEE01F5CCD0659D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A68DFEA41149F99EB404F78FA2ED9F88 /* Media.xcassets */,
+				FC1336D2A643129DFBF092C8B5DB0290 /* close@2x.png */,
+				67A582A31C64CA59CD4214F8394F0A10 /* star_blue@2x.png */,
+				F029F340FF503D5066973EDE79276D7A /* star_gray@2x.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		512CD6D214FA22913B82E35F551011B5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C85B41658786DADF17FDAF87B9ED51DC /* OpinionzRate.xcconfig */,
+				F2FC515D496B23CADDA3FFDD595B3983 /* OpinionzRate-Private.xcconfig */,
+				27F9489FC6AAFAD0C729A2DADE88C180 /* OpinionzRate-dummy.m */,
+				7FBCD1B241F93947720A0866AAA0A6A4 /* OpinionzRate-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OpinionzRate";
+			sourceTree = "<group>";
+		};
+		57BCCF91CE3FE1074931F5551372FFE2 /* OpinionzRate */ = {
+			isa = PBXGroup;
+			children = (
+				7634964A11B0EDB34B5CDD94F56A31CC /* OpinionzRate */,
+				91E823A0B47D92E6154357ABC5367272 /* Resources */,
+				512CD6D214FA22913B82E35F551011B5 /* Support Files */,
+			);
+			name = OpinionzRate;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7634964A11B0EDB34B5CDD94F56A31CC /* OpinionzRate */ = {
+			isa = PBXGroup;
+			children = (
+				B8D47518F72194287701A75F88D2B1DE /* Classes */,
+			);
+			path = OpinionzRate;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				E18B2909F393B280F2D24D4D9FF5761F /* Development Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				13AFEEB0D13C5607C92B8028286A7469 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		91E823A0B47D92E6154357ABC5367272 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F1E0EA91FB916A6F36E0031845FC5E13 /* OpinionzRate */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A34D78C6E77F2A87859C24DBF8DBF474 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CC33C13958F5E351E050F106E6DE40C3 /* Foundation.framework */,
+				8CB8A266C569C23CCE7C8D37EE451D70 /* MessageUI.framework */,
+				9E6E3313043E18B3045B97EFB6D867ED /* StoreKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B8D47518F72194287701A75F88D2B1DE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				99A2C7A4E22056FEFBD924EE6E18009F /* OpinionzCustomRateView.h */,
+				C4401CD20DEDA5280F64F634AB2379A5 /* OpinionzCustomRateView.m */,
+				B0EBE750F6F6E5E0724B59B62463F88B /* OpinionzRate.h */,
+				2C4261239D2E01F69AE1F38ADAAC5543 /* OpinionzRate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50F7A8299A8663A124CBA674982547BC /* OpinionzRate.bundle */,
+				242D9B320A81156D0A7818B514E5DBC1 /* libOpinionzRate.a */,
+				0F405C6518689DEE7353C070883705E6 /* libPods-OpinionzRate_Example.a */,
+				463C85E3EADABEEFCB5BF70F4A28EC94 /* libPods-OpinionzRate_Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D475AC58D8760F68D516483AD7F0CE2C /* Pods-OpinionzRate_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FA2795C9E6964FBF4AD400335AAA0A66 /* Pods-OpinionzRate_Tests-acknowledgements.markdown */,
+				D15385BAC4128E255474D2AA85FE0875 /* Pods-OpinionzRate_Tests-acknowledgements.plist */,
+				F0319EFAFB7C2EDFD8237C003E63E54C /* Pods-OpinionzRate_Tests-dummy.m */,
+				A10039F822006060677B1CCC83894BFC /* Pods-OpinionzRate_Tests-resources.sh */,
+				72F02097E9885EEFAB6200F6401CD1AB /* Pods-OpinionzRate_Tests.debug.xcconfig */,
+				0234F09DE7E189930877DAD56FE86A20 /* Pods-OpinionzRate_Tests.release.xcconfig */,
+			);
+			name = "Pods-OpinionzRate_Tests";
+			path = "Target Support Files/Pods-OpinionzRate_Tests";
+			sourceTree = "<group>";
+		};
+		E18B2909F393B280F2D24D4D9FF5761F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57BCCF91CE3FE1074931F5551372FFE2 /* OpinionzRate */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F1E0EA91FB916A6F36E0031845FC5E13 /* OpinionzRate */ = {
+			isa = PBXGroup;
+			children = (
+				46C5CFA67B3891784BEE01F5CCD0659D /* Assets */,
+				FD6998E82B0DEA098CB5157983D5AD70 /* Nibs */,
+			);
+			path = OpinionzRate;
+			sourceTree = "<group>";
+		};
+		FD6998E82B0DEA098CB5157983D5AD70 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				31C3B11B0256286217A96F6A94F1672C /* OPZCustomRateViewDefault.xib */,
+				8E4A4AC6427D489AA0EA0A3C866CB932 /* OPZCustomRateViewPopup.xib */,
+				89E6D4D195E66687A8536EFE4C60E38E /* OPZCustomRateViewFullscreen.xib */,
+			);
+			path = Nibs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		809877ADE5EC5B622F7373DAA321D8F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55E9FCEF8BA5C66034206F255BE391F /* OpinionzCustomRateView.h in Headers */,
+				E886DE9B7144FF5E8556CB71E089F5D6 /* OpinionzRate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0152DFC861977D20ECB876F3C05BD6E5 /* OpinionzRate-OpinionzRate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4FF22ED4C15FDF278F08CF132BE5EFF /* Build configuration list for PBXNativeTarget "OpinionzRate-OpinionzRate" */;
+			buildPhases = (
+				D68423DBAC362ED40CCEE02632B3CBE5 /* Sources */,
+				5D13F4DE0E8EE2376DD79301A11FEA2B /* Frameworks */,
+				BEB7F222D8060B15752CD7F1708809E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpinionzRate-OpinionzRate";
+			productName = "OpinionzRate-OpinionzRate";
+			productReference = 50F7A8299A8663A124CBA674982547BC /* OpinionzRate.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		341339E109E2303F92A76D7B55D75FF4 /* Pods-OpinionzRate_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA510EE6CC17D98881D59500F0EAF444 /* Build configuration list for PBXNativeTarget "Pods-OpinionzRate_Example" */;
+			buildPhases = (
+				498AF9BFE1347029C15C4BCEBC5906D5 /* Sources */,
+				F4AC488A5FAFDD874A2D0597FC551492 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0229DEF36060D0AEE49628EE1550A91 /* PBXTargetDependency */,
+			);
+			name = "Pods-OpinionzRate_Example";
+			productName = "Pods-OpinionzRate_Example";
+			productReference = 0F405C6518689DEE7353C070883705E6 /* libPods-OpinionzRate_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		634D6B3ACBC7E8FB3026619AB4A81DE6 /* Pods-OpinionzRate_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 283EBB3016BE683E88007988C7FF75FD /* Build configuration list for PBXNativeTarget "Pods-OpinionzRate_Tests" */;
+			buildPhases = (
+				378AAD41C4A15006310470DBEA9C4BA6 /* Sources */,
+				4A21E5572E0D375E4ADBE3F9B3760441 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20B687182010602D397F7B4F3A1BC8D5 /* PBXTargetDependency */,
+			);
+			name = "Pods-OpinionzRate_Tests";
+			productName = "Pods-OpinionzRate_Tests";
+			productReference = 463C85E3EADABEEFCB5BF70F4A28EC94 /* libPods-OpinionzRate_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C3410AAB0C2B142285326B6BA1327C1C /* OpinionzRate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E34FAF35DA86DA70E1E910CA1339F45 /* Build configuration list for PBXNativeTarget "OpinionzRate" */;
+			buildPhases = (
+				AAD7B97E646E90A7E01430B964DA240D /* Sources */,
+				8EA4CC4BB18F41E5ABADE1509D2C7AAC /* Frameworks */,
+				809877ADE5EC5B622F7373DAA321D8F5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8458D6C090971BDFE9901F1682F1B773 /* PBXTargetDependency */,
+			);
+			name = OpinionzRate;
+			productName = OpinionzRate;
+			productReference = 242D9B320A81156D0A7818B514E5DBC1 /* libOpinionzRate.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3410AAB0C2B142285326B6BA1327C1C /* OpinionzRate */,
+				0152DFC861977D20ECB876F3C05BD6E5 /* OpinionzRate-OpinionzRate */,
+				341339E109E2303F92A76D7B55D75FF4 /* Pods-OpinionzRate_Example */,
+				634D6B3ACBC7E8FB3026619AB4A81DE6 /* Pods-OpinionzRate_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEB7F222D8060B15752CD7F1708809E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2015A94BB8DBFDBAB2493D7A8B84C24 /* Media.xcassets in Resources */,
+				0285D4D0A0196F7FFD2D706C5858706C /* OPZCustomRateViewDefault.xib in Resources */,
+				CAFD361DD1838F27C29AB5C832A2CFF1 /* OPZCustomRateViewFullscreen.xib in Resources */,
+				919D28BF8BF48953704F886D7CD69293 /* OPZCustomRateViewPopup.xib in Resources */,
+				67EED02B545DEE82A312411E07F93D5F /* close@2x.png in Resources */,
+				01C234C2D5F0341D24D21FDF5846355C /* star_blue@2x.png in Resources */,
+				64DA258EE149E3D05241AE2D08DAE658 /* star_gray@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		378AAD41C4A15006310470DBEA9C4BA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				004ED54B67DD00A6681506AEEEA0FD21 /* Pods-OpinionzRate_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498AF9BFE1347029C15C4BCEBC5906D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F275C749902A8B957A220FAAD19248A4 /* Pods-OpinionzRate_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD7B97E646E90A7E01430B964DA240D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2308FE68A00F116879FEB48CE08EBF1C /* OpinionzCustomRateView.m in Sources */,
+				D73E2EB619C79555A914752ED4B7B01F /* OpinionzRate-dummy.m in Sources */,
+				047066C29A72D73819F8B8CFBEEE1227 /* OpinionzRate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68423DBAC362ED40CCEE02632B3CBE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20B687182010602D397F7B4F3A1BC8D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OpinionzRate;
+			target = C3410AAB0C2B142285326B6BA1327C1C /* OpinionzRate */;
+			targetProxy = 13D0B148114DB9B4431DAB93E66ECBD1 /* PBXContainerItemProxy */;
+		};
+		8458D6C090971BDFE9901F1682F1B773 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OpinionzRate-OpinionzRate";
+			target = 0152DFC861977D20ECB876F3C05BD6E5 /* OpinionzRate-OpinionzRate */;
+			targetProxy = FE075FB5D7EF9ABCA8B0BB5F49BBF9AD /* PBXContainerItemProxy */;
+		};
+		F0229DEF36060D0AEE49628EE1550A91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OpinionzRate;
+			target = C3410AAB0C2B142285326B6BA1327C1C /* OpinionzRate */;
+			targetProxy = 30EABE86B7A0DC04D01B4423B90BCD0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		0CB3E3CCE4318D4DB90ADDCDB6507384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2FC515D496B23CADDA3FFDD595B3983 /* OpinionzRate-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = OpinionzRate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1B0003F5975903A3489BC8FD6B22636C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0234F09DE7E189930877DAD56FE86A20 /* Pods-OpinionzRate_Tests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4FE408BDA7F9C5D5A74E308271EAB973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72F02097E9885EEFAB6200F6401CD1AB /* Pods-OpinionzRate_Tests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5A2279BB0AA63B06410026C9C739C5DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2FC515D496B23CADDA3FFDD595B3983 /* OpinionzRate-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OpinionzRate/OpinionzRate-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		81F2FCEAB618F6436C6F8F86ECB25F1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2FC515D496B23CADDA3FFDD595B3983 /* OpinionzRate-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OpinionzRate/OpinionzRate-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8F4BB23C35B37748255A0230F6256B55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2FC515D496B23CADDA3FFDD595B3983 /* OpinionzRate-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = OpinionzRate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		BE5C5AF545A0DFD368897D4177C4B2E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DFF65888557667F5F645574B7033293 /* Pods-OpinionzRate_Example.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DD486CAA74F48AFA60D2BCEFF876BD2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2511684097CC7673FA3A0D291E049BE8 /* Pods-OpinionzRate_Example.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		283EBB3016BE683E88007988C7FF75FD /* Build configuration list for PBXNativeTarget "Pods-OpinionzRate_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FE408BDA7F9C5D5A74E308271EAB973 /* Debug */,
+				1B0003F5975903A3489BC8FD6B22636C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E34FAF35DA86DA70E1E910CA1339F45 /* Build configuration list for PBXNativeTarget "OpinionzRate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A2279BB0AA63B06410026C9C739C5DD /* Debug */,
+				81F2FCEAB618F6436C6F8F86ECB25F1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4FF22ED4C15FDF278F08CF132BE5EFF /* Build configuration list for PBXNativeTarget "OpinionzRate-OpinionzRate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CB3E3CCE4318D4DB90ADDCDB6507384 /* Debug */,
+				8F4BB23C35B37748255A0230F6256B55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA510EE6CC17D98881D59500F0EAF444 /* Build configuration list for PBXNativeTarget "Pods-OpinionzRate_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE5C5AF545A0DFD368897D4177C4B2E8 /* Debug */,
+				DD486CAA74F48AFA60D2BCEFF876BD2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
