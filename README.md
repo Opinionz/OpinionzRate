@@ -42,13 +42,56 @@ pod 'OpinionzRate', '~> 0.3.0'
 
 # Usage
 
-| Sample |  Screenshot|
-|--|--|
-| ```swift OpinionzRate.shared.headerImage = UIImage(named: "dinner-table")``` <br>  ```swift OpinionzRate.shared.title = "My Great App"``` <br> ```swift OpinionzRate.shared.type = .default;``` <br> `swift OpinionzRate.shared.promptForRating()` | ![enter image description here](https://i.imgur.com/whGUH7B.png) |
-| `OpinionzRate.shared.headerImage = UIImage(named: "dinner-table")` <br>  `OpinionzRate.shared.title = "Popup"` <br> `OpinionzRate.shared.type = .popup;` <br> `OpinionzRate.shared.promptForRating()` | ![Popup](https://i.imgur.com/fLglmKi.png) |
-| `OpinionzRate.shared.headerImage = UIImage(named: "dinner-table")` <br>  `OpinionzRate.shared.title = "Fullscreen"` <br> `OpinionzRate.shared.type = .fullscreen;` <br> `OpinionzRate.shared.promptForRating()` | ![Fullscreen](https://i.imgur.com/CVRDYeh.png) |
-
-
+<table>
+ <thead>
+<tr>
+<th>Example code</th>
+<th>Screenshot</th>
+</tr>
+</thead>
+<tr>
+<td>
+ Default
+  <pre lang="swift">
+  OpinionzRate.shared.headerImage = UIImage(named: "dinner-table")
+  OpinionzRate.shared.title = "My Great App" </br> 
+  OpinionzRate.shared.type = .default </br> 
+  OpinionzRate.shared.promptForRating()
+  </pre>
+</td>
+<td>
+ <img src="https://i.imgur.com/whGUH7B.png" alt="Default" width="250">
+</td>
+</tr>
+<tr>
+<td>
+ Popup
+  <pre lang="swift">
+  OpinionzRate.shared.headerImage = UIImage(named: "dinner-table")
+  OpinionzRate.shared.title = "Popup" </br> 
+  OpinionzRate.shared.type = .popup </br> 
+  OpinionzRate.shared.promptForRating()
+  </pre>
+</td>
+<td>
+ <img src="https://i.imgur.com/whGUH7B.png" alt="Popup" width="250">
+</td>
+</tr>
+<tr>
+<td>
+ Fullscreen
+  <pre lang="swift">
+  OpinionzRate.shared.headerImage = UIImage(named: "dinner-table")
+  OpinionzRate.shared.title = "Fullscreen" </br> 
+  OpinionzRate.shared.type = .fullscreen </br> 
+  OpinionzRate.shared.promptForRating()
+  </pre>
+</td>
+<td>
+ <img src="https://i.imgur.com/CVRDYeh.png" alt="Fullscreen" width="250">
+</td>
+</tr>
+</table>
 
 # Contacts
 
