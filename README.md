@@ -4,9 +4,9 @@ OpinionzRate simplifies the way you remind the users to review your app on the A
 
 
 # Screenshots
-| ![Fullscreen](https://i.imgur.com/CVRDYeh.png) | ![Popup](https://i.imgur.com/fLglmKi.png) | ![Default](https://i.imgur.com/whGUH7B.png) |
+| ![Default](https://i.imgur.com/whGUH7B.png) | ![Popup](https://i.imgur.com/fLglmKi.png) | ![Fullscreen](https://i.imgur.com/CVRDYeh.png) |
 |--|--|--|
-| Fullscreen | Popup  | Default |
+| Default| Popup | Fullscreen |
 
 
 # Roadmap
