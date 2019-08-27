@@ -39,7 +39,7 @@ pod 'OpinionzRate', '~> 0.3.0'
 
 | Sample |  Screenshot|
 |--|--|
-| `OpinionzRate.shared.headerImage = UIImage(named: "dinner-table")` <br>  `OpinionzRate.shared.title = "My Great App"` <br> `OpinionzRate.shared.type = .default;` <br> `OpinionzRate.shared.promptForRating()` | ![enter image description here](https://i.imgur.com/whGUH7B.png) |
+| ```swift OpinionzRate.shared.headerImage = UIImage(named: "dinner-table")``` <br>  ```swift OpinionzRate.shared.title = "My Great App"``` <br> ```swift OpinionzRate.shared.type = .default;``` <br> `swift OpinionzRate.shared.promptForRating()` | ![enter image description here](https://i.imgur.com/whGUH7B.png) |
 | `OpinionzRate.shared.headerImage = UIImage(named: "dinner-table")` <br>  `OpinionzRate.shared.title = "Popup"` <br> `OpinionzRate.shared.type = .popup;` <br> `OpinionzRate.shared.promptForRating()` | ![Popup](https://i.imgur.com/fLglmKi.png) |
 | `OpinionzRate.shared.headerImage = UIImage(named: "dinner-table")` <br>  `OpinionzRate.shared.title = "Fullscreen"` <br> `OpinionzRate.shared.type = .fullscreen;` <br> `OpinionzRate.shared.promptForRating()` | ![Fullscreen](https://i.imgur.com/CVRDYeh.png) |
 
