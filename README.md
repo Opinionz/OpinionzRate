@@ -2,20 +2,23 @@
 
 OpinionzRate simplifies the way you remind the users to review your app on the App Store. It has unique designs for prompting user and we are going to add new design eventually.
 
+
 # Screenshots
 | ![Fullscreen](https://i.imgur.com/CVRDYeh.png) | ![Popup](https://i.imgur.com/fLglmKi.png) | ![Default](https://i.imgur.com/whGUH7B.png) |
 |--|--|--|
 | Fullscreen | Popup  | Default |
 
 
-## Roadmap
+# Roadmap
 
  - New designs
  - Customizable color schemes
  - Feedback mechanism
  - API support for sending analytics events
 
-## Installation
+
+
+# Installation
 ### Cocoapods
 
 OpinionzRate is available through [CocoaPods](http://cocoapods.org). To install
@@ -35,7 +38,9 @@ pod 'OpinionzRate', '~> 0.3.0'
 3.  Add  `@import OpinionzRate`  in your class where you want to ask user for review.
 4.  Call  `OpinionzRate.sharedInstance.promptForRating()`  at your desired action
 
-## Usage
+
+
+# Usage
 
 | Sample |  Screenshot|
 |--|--|
@@ -44,6 +49,7 @@ pod 'OpinionzRate', '~> 0.3.0'
 | `OpinionzRate.shared.headerImage = UIImage(named: "dinner-table")` <br>  `OpinionzRate.shared.title = "Fullscreen"` <br> `OpinionzRate.shared.type = .fullscreen;` <br> `OpinionzRate.shared.promptForRating()` | ![Fullscreen](https://i.imgur.com/CVRDYeh.png) |
 
 
-## Contacts
+
+# Contacts
 
 Opinionz.io, [support@opinionz.io](mailto:support@opinionz.io)
