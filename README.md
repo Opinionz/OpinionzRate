@@ -1,49 +1,44 @@
-# OpinionzRate
 
-[![CI Status](http://img.shields.io/travis/Opinionz/OpinionzRate.svg?style=flat)](https://travis-ci.org/Opinionz/OpinionzRate)
-[![Version](https://img.shields.io/cocoapods/v/OpinionzRate.svg?style=flat)](http://cocoapods.org/pods/OpinionzRate)
-[![License](https://img.shields.io/cocoapods/l/OpinionzRate.svg?style=flat)](http://cocoapods.org/pods/OpinionzRate)
-[![Platform](https://img.shields.io/cocoapods/p/OpinionzRate.svg?style=flat)](http://cocoapods.org/pods/OpinionzRate)
+# OpinionzAlertView
+
+[![CI Status](http://img.shields.io/travis/Opinionz}/OpinionzAlertView.svg?style=flat)](https://travis-ci.org/Opinionz/OpinionzAlertView)
+[![Version](https://img.shields.io/cocoapods/v/OpinionzAlertView.svg?style=flat)](http://cocoapods.org/pods/OpinionzAlertView)
+[![License](https://img.shields.io/cocoapods/l/OpinionzAlertView.svg?style=flat)](http://cocoapods.org/pods/OpinionzAlertView)
+[![Platform](https://img.shields.io/cocoapods/p/OpinionzAlertView.svg?style=flat)](http://cocoapods.org/pods/OpinionzAlertView)
 
 # Goal
 
-OpinionzRate simplifies the way you remind the users to review your app on the App Store. It has unique designs for prompting user and we are going to add new design eventually.
-
+Click here to edit your Goals
 
 # Screenshots
-| ![Default](https://i.imgur.com/whGUH7B.png) | ![Popup](https://i.imgur.com/fLglmKi.png) | ![Fullscreen](https://i.imgur.com/CVRDYeh.png) |
-|--|--|--|
-| Default| Popup | Fullscreen |
+
+
+| <img src="https://i.imgur.com/puOwwcI.png" alt="Feature 1" width="250"> | <img src="https://i.imgur.com/ZL330qL.png" alt="Feature 2" width="250"> |
+| -- | -- |
+| Feature 1 | Feature 2 |
+
 
 
 # Roadmap
 
- - New designs
- - Customizable color schemes
- - Feedback mechanism
- - API support for sending analytics events
-
-
+Click here to edit your Roadmap
 
 # Installation
-### Cocoapods
 
-OpinionzRate is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
 
-```ruby
-pod 'OpinionzRate', '~> 0.3.0'
-```
+### CocoaPods
+
+enter installation manual
+
+
+### Carthage
+
+enter installation manual
+
 
 ### Manual
-1. Add the OpinionzRate code into your project.
-2. Add the `StoreKit` frameworks to your project.
 
-### Setup
-1. Add  `@import OpinionzRate`  in your AppDelegate.m
-2.  Call  `OpinionzRate.shared.setupWithAppStoreId(YOUR_APP_ID)`  with the app id provided by Apple. A good place to do this is at the beginning of your app delegate's  `application:didFinishLaunchingWithOptions:`  method.
-3.  Add  `@import OpinionzRate`  in your class where you want to ask user for review.
-4.  Call  `OpinionzRate.sharedInstance.promptForRating()`  at your desired action
+enter installation manual
 
 
 
@@ -58,48 +53,45 @@ pod 'OpinionzRate', '~> 0.3.0'
 </thead>
 <tr>
 <td>
- Default
-  <pre lang="swift">
-  OpinionzRate.shared.headerImage = UIImage(named: "dinner-table")
-  OpinionzRate.shared.title = "My Great App" </br> 
-  OpinionzRate.shared.type = .default </br> 
-  OpinionzRate.shared.promptForRating()
+ Feature 1
+  <pre lang="swift" style='width: 600px'>
+  
+  Click here to edit code snippet
+
   </pre>
 </td>
 <td>
- <img src="https://i.imgur.com/whGUH7B.png" alt="Default" width="250">
+  <img src="https://i.imgur.com/FlOWK80.png" alt="Feature 1" width="250">
 </td>
 </tr>
 <tr>
 <td>
- Popup
-  <pre lang="swift">
-  OpinionzRate.shared.headerImage = UIImage(named: "dinner-table")
-  OpinionzRate.shared.title = "Popup" </br> 
-  OpinionzRate.shared.type = .popup </br> 
-  OpinionzRate.shared.promptForRating()
+ Feature 2
+  <pre lang="swift" style='width: 600px'>
+  
+  Click here to edit code snippet
+
   </pre>
 </td>
 <td>
- <img src="https://i.imgur.com/whGUH7B.png" alt="Popup" width="250">
+  
 </td>
 </tr>
 <tr>
 <td>
- Fullscreen
-  <pre lang="swift">
-  OpinionzRate.shared.headerImage = UIImage(named: "dinner-table")
-  OpinionzRate.shared.title = "Fullscreen" </br> 
-  OpinionzRate.shared.type = .fullscreen </br> 
-  OpinionzRate.shared.promptForRating()
+ Feature 3
+  <pre lang="swift" style='width: 600px'>
+  
+  Click here to edit code snippet
+
   </pre>
 </td>
 <td>
- <img src="https://i.imgur.com/CVRDYeh.png" alt="Fullscreen" width="250">
+  
 </td>
 </tr>
 </table>
 
 # Contacts
 
-Opinionz.io, [support@opinionz.io](mailto:support@opinionz.io)
+Click to edit your Contact info
