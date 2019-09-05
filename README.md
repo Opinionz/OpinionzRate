@@ -66,7 +66,8 @@ enter installation manual
 </tr>
 <tr>
 <td>
- Feature 2
+ 
+
   <pre lang="swift" style='width: 600px'>
   
   Click here to edit code snippet
@@ -74,16 +75,16 @@ enter installation manual
   </pre>
 </td>
 <td>
-  
+  <img src="https://i.imgur.com/0kaK1Er.png" alt="
+" width="250">
 </td>
 </tr>
 <tr>
 <td>
- Feature 3
-  <pre lang="swift" style='width: 600px'>
-  
-  Click here to edit code snippet
+ 
 
+  <pre lang="swift" style='width: 600px'>
+  click here to add code sample
   </pre>
 </td>
 <td>
